@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerBank AQA ApiTestingCore", "PowerBank AQA ApiTestingCore\PowerBank AQA ApiTestingCore.csproj", "{A339668F-C303-4512-9585-A31F885B4C9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerBank AQA ApiTesting", "PowerBank AQA ApiTesting\PowerBank AQA ApiTesting.csproj", "{E2D9F535-5E53-4956-8BE3-EDC0CF507F65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerBank AQA TestingCore", "PowerBank AQA TestingCore\PowerBank AQA TestingCore.csproj", "{56677DA6-1086-4BF5-8766-CDCE9C644CCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerBank AQA DbTestingCore", "PowerBank AQA DbTestingCore\PowerBank AQA DbTestingCore.csproj", "{FAA5F409-CF86-409E-9265-B31E978B6864}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerBank AQA UITestingCore", "PowerBank AQA UITestingCore\PowerBank AQA UITestingCore.csproj", "{91607587-E11D-40D1-BC69-0520E846339E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerBank AQA UITesting", "PowerBank AQA UITesting\PowerBank AQA UITesting.csproj", "{D242567A-7F13-42CA-98C5-E321C6F7C04D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A339668F-C303-4512-9585-A31F885B4C9F} = {A339668F-C303-4512-9585-A31F885B4C9F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBank AQA SpecFlow", "PowerBank AQA SpecFlow\PowerBank AQA SpecFlow.csproj", "{9D1B2D15-64BA-4AF1-AEEE-33015EE0C912}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A339668F-C303-4512-9585-A31F885B4C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A339668F-C303-4512-9585-A31F885B4C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A339668F-C303-4512-9585-A31F885B4C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A339668F-C303-4512-9585-A31F885B4C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D9F535-5E53-4956-8BE3-EDC0CF507F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D9F535-5E53-4956-8BE3-EDC0CF507F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D9F535-5E53-4956-8BE3-EDC0CF507F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D9F535-5E53-4956-8BE3-EDC0CF507F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56677DA6-1086-4BF5-8766-CDCE9C644CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56677DA6-1086-4BF5-8766-CDCE9C644CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56677DA6-1086-4BF5-8766-CDCE9C644CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56677DA6-1086-4BF5-8766-CDCE9C644CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA5F409-CF86-409E-9265-B31E978B6864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA5F409-CF86-409E-9265-B31E978B6864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA5F409-CF86-409E-9265-B31E978B6864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA5F409-CF86-409E-9265-B31E978B6864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91607587-E11D-40D1-BC69-0520E846339E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91607587-E11D-40D1-BC69-0520E846339E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91607587-E11D-40D1-BC69-0520E846339E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91607587-E11D-40D1-BC69-0520E846339E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D242567A-7F13-42CA-98C5-E321C6F7C04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D242567A-7F13-42CA-98C5-E321C6F7C04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D242567A-7F13-42CA-98C5-E321C6F7C04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D242567A-7F13-42CA-98C5-E321C6F7C04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D1B2D15-64BA-4AF1-AEEE-33015EE0C912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1B2D15-64BA-4AF1-AEEE-33015EE0C912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1B2D15-64BA-4AF1-AEEE-33015EE0C912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1B2D15-64BA-4AF1-AEEE-33015EE0C912}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6DA8DFF-CB76-410D-B127-95CADBB3EFA3}
+	EndGlobalSection
+EndGlobal
